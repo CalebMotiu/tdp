@@ -1,0 +1,25 @@
+.bi-briefcase{
+    color: rgb(250, 118, 140);
+    font-size: 90px;
+    margin-left: 300px;
+    background-color: rgb(253, 223, 227);
+    background-size: 50px;
+}
+.number{
+    font-size: 50px;
+    margin: 10px 300px 15px;
+}
+.total{
+    color: rgb(146, 145, 145);
+    font-size: 20PX;
+    margin: 0px 300px 15px;
+}
+.Percent{
+    color: red;
+    margin-left: 310px;
+}
+.last{
+    color: rgb(98, 98, 98);
+    margin-left: 310px;
+
+}
