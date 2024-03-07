@@ -1,13 +1,16 @@
 .bi-briefcase{
-    color: rgb(250, 118, 140);
-    font-size: 90px;
-    margin-left: 300px;
-    background-color: rgb(253, 223, 227);
-    background-size: 50px;
+    color: rgb(255, 99, 187);
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 300px;;
+    background-color: rgb(253, 223, 243);
+    background-size: 90px;
+    border-radius: 16px;
+
 }
 .number{
     font-size: 50px;
-    margin: 10px 300px 15px;
+    margin: 30px 300px 15px;
 }
 .total{
     color: rgb(146, 145, 145);
