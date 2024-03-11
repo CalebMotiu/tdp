@@ -1,9 +1,11 @@
 .welcome{
-    margin-left: 50px;
+    padding-left: 50px;
     font-size: 30px;
+    margin-bottom: 20px;
+
 }
 .email{
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     width: 290px;
     height: 30px;
 border-radius: 16px;
@@ -15,7 +17,7 @@ border-radius: 16px;
 }
 .G-button{
     color: aliceblue;
-    margin-bottom: 5px;
+    margin: 10px 0px;
     width: 290px;
     height: 30px;
 border-radius: 16px;
@@ -26,7 +28,7 @@ border-style: hidden;
 
 .F-button{
     color: aliceblue;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     width: 290px;
     height: 30px;
 border-radius: 16px;
@@ -36,7 +38,7 @@ border-style: hidden;
 }
 .login{
     color: aliceblue;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 290px;
     height: 30px;
     background-color: rgb(0, 42, 255);
@@ -54,10 +56,18 @@ border-style: hidden;
     color: rgb(0, 42, 255);
     border-style: hidden;
     margin-left: 80px;
+    margin-top: 15px;
 }
 .creat{
     background-color: white;
     color: rgb(0, 42, 255);
     border-style: hidden;
     margin-left: 79px;
+}
+.center{
+    margin-left: 300px;
+    width: 50%;
+}
+.hr{
+    width: 290px;
 }
