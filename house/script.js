@@ -33,6 +33,11 @@ function draw(){
     line(50,310,65,325)
     fill("black")
     circle(50,300,12)
+    fill("green")
+    stroke("green")
+    circle(47,298,0.5)
+    circle(53,298,0.5)
+
     fill("white")
     stroke("white")
     rect(48,311,4,20,1,1,0)
