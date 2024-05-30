@@ -2,7 +2,8 @@ function setup(){
     createCanvas(1000,1000);
 }
 function draw(){
-        if(w>0)
-        drawStairs();
+
+    translate(500,500)
+    drawStairs(1);
     
 }

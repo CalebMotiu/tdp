@@ -1,15 +1,18 @@
-let w = 100;
-let h = 100
+let side = 1;
 
 
-function drawStairs(){
-    translate(200,200)
-    for (i=0;i<=100;i++){
-        rotate(QUARTER_PI/10)
-        noFill()
-        rect(0,0,w,h);
-        w--;
-        h--;
-    }
+function drawStairs(n){
+    if (side > 350)
+        {return null;}
+
+    push()
+    noFill()
+    rotate((PI/10)*n)
+    side+=n;
+    square(0,0,side);
+    pop()
+
+    return drawStairs(n+1);
+
 
 }
